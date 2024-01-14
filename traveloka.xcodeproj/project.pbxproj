@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52252BC72B1C90D6005679BF /* MainNavContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52252BC62B1C90D6005679BF /* MainNavContent.swift */; };
+		52781BF82B523326006EB42B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF72B523326006EB42B /* Card.swift */; };
+		52781BFA2B5250D7006EB42B /* SearchedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF92B5250D7006EB42B /* SearchedItems.swift */; };
+		52781BFD2B525301006EB42B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BFC2B525301006EB42B /* Main.swift */; };
+		52A6F2FA2B220F7700E2E460 /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6F2F92B220F7700E2E460 /* CategorySection.swift */; };
+		52B054082B3C575D00D52B30 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B054072B3C575D00D52B30 /* Carousel.swift */; };
+		52B3E72D2B4A5DEC00767563 /* TabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E72C2B4A5DEC00767563 /* TabBarContainer.swift */; };
+		52B81C4C2B241AD900282318 /* SubCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B81C4B2B241AD900282318 /* SubCategories.swift */; };
+		52B81C4E2B24268D00282318 /* MainCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B81C4D2B24268D00282318 /* MainCategories.swift */; };
+		52DEF4442B1B42760024EAB6 /* travelokaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF4432B1B42760024EAB6 /* travelokaApp.swift */; };
+		52DEF4462B1B42760024EAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF4452B1B42760024EAB6 /* ContentView.swift */; };
+		52DEF4482B1B42760024EAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DEF4472B1B42760024EAB6 /* Assets.xcassets */; };
+		52DEF44B2B1B42760024EAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DEF44A2B1B42760024EAB6 /* Preview Assets.xcassets */; };
+		52DEF4582B1B45670024EAB6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF4572B1B45670024EAB6 /* Home.swift */; };
+		52DEF45D2B1B476A0024EAB6 /* NavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF45C2B1B476A0024EAB6 /* NavBarContainer.swift */; };
+		52DEF45F2B1B47EE0024EAB6 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */; };
+		52FF63F42B2600F1008A20E3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF63F32B2600F1008A20E3 /* TabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52252BC62B1C90D6005679BF /* MainNavContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavContent.swift; sourceTree = "<group>"; };
+		52781BF72B523326006EB42B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		52781BF92B5250D7006EB42B /* SearchedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedItems.swift; sourceTree = "<group>"; };
+		52781BFC2B525301006EB42B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		52A6F2F92B220F7700E2E460 /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
+		52B054072B3C575D00D52B30 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		52B3E72C2B4A5DEC00767563 /* TabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContainer.swift; sourceTree = "<group>"; };
+		52B81C4B2B241AD900282318 /* SubCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategories.swift; sourceTree = "<group>"; };
+		52B81C4D2B24268D00282318 /* MainCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategories.swift; sourceTree = "<group>"; };
+		52DEF4402B1B42760024EAB6 /* traveloka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = traveloka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DEF4432B1B42760024EAB6 /* travelokaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelokaApp.swift; sourceTree = "<group>"; };
+		52DEF4452B1B42760024EAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52DEF4472B1B42760024EAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DEF44A2B1B42760024EAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52DEF44C2B1B42760024EAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DEF4572B1B45670024EAB6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		52DEF45C2B1B476A0024EAB6 /* NavBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarContainer.swift; sourceTree = "<group>"; };
+		52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		52FF63F32B2600F1008A20E3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DEF43D2B1B42760024EAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520538C22B4C378700FE4205 /* SearchedItems */ = {
+			isa = PBXGroup;
+			children = (
+				52781BF92B5250D7006EB42B /* SearchedItems.swift */,
+			);
+			path = SearchedItems;
+			sourceTree = "<group>";
+		};
+		520538C32B4C382200FE4205 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				52781BF72B523326006EB42B /* Card.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		52252BC42B1C909C005679BF /* NavBarContents */ = {
+			isa = PBXGroup;
+			children = (
+				52252BC52B1C90AD005679BF /* Main */,
+			);
+			path = NavBarContents;
+			sourceTree = "<group>";
+		};
+		52252BC52B1C90AD005679BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52252BC62B1C90D6005679BF /* MainNavContent.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52781BFB2B5252ED006EB42B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52781BFC2B525301006EB42B /* Main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52A6F2F82B220E7400E2E460 /* CategorySection */ = {
+			isa = PBXGroup;
+			children = (
+				52A6F2F92B220F7700E2E460 /* CategorySection.swift */,
+				52B81C4B2B241AD900282318 /* SubCategories.swift */,
+				52B81C4D2B24268D00282318 /* MainCategories.swift */,
+			);
+			path = CategorySection;
+			sourceTree = "<group>";
+		};
+		52B054052B3C55FE00D52B30 /* Promotion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Promotion;
+			sourceTree = "<group>";
+		};
+		52B054062B3C574900D52B30 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				52B054072B3C575D00D52B30 /* Carousel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		52DEF4372B1B42750024EAB6 = {
+			isa = PBXGroup;
+			children = (
+				52DEF4422B1B42760024EAB6 /* traveloka */,
+				52DEF4412B1B42760024EAB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DEF4412B1B42760024EAB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF4402B1B42760024EAB6 /* traveloka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DEF4422B1B42760024EAB6 /* traveloka */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF4532B1B44820024EAB6 /* components */,
+				52DEF4522B1B442E0024EAB6 /* pages */,
+				52DEF4432B1B42760024EAB6 /* travelokaApp.swift */,
+				52DEF4452B1B42760024EAB6 /* ContentView.swift */,
+				52DEF4472B1B42760024EAB6 /* Assets.xcassets */,
+				52DEF44C2B1B42760024EAB6 /* Info.plist */,
+				52DEF4492B1B42760024EAB6 /* Preview Content */,
+			);
+			path = traveloka;
+			sourceTree = "<group>";
+		};
+		52DEF4492B1B42760024EAB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF44A2B1B42760024EAB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52DEF4522B1B442E0024EAB6 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				52781BFB2B5252ED006EB42B /* Main */,
+				52DEF4542B1B44AF0024EAB6 /* Home */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		52DEF4532B1B44820024EAB6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF45A2B1B45D40024EAB6 /* generic */,
+				52DEF4592B1B45C50024EAB6 /* products */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		52DEF4542B1B44AF0024EAB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF4572B1B45670024EAB6 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52DEF4592B1B45C50024EAB6 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				520538C22B4C378700FE4205 /* SearchedItems */,
+				52B054052B3C55FE00D52B30 /* Promotion */,
+				52A6F2F82B220E7400E2E460 /* CategorySection */,
+				52252BC42B1C909C005679BF /* NavBarContents */,
+			);
+			path = products;
+			sourceTree = "<group>";
+		};
+		52DEF45A2B1B45D40024EAB6 /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				520538C32B4C382200FE4205 /* Cards */,
+				52B054062B3C574900D52B30 /* Carousel */,
+				52FF63F22B2600CD008A20E3 /* TabBar */,
+				52DEF45B2B1B45E10024EAB6 /* NavBar */,
+			);
+			path = generic;
+			sourceTree = "<group>";
+		};
+		52DEF45B2B1B45E10024EAB6 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				52DEF45C2B1B476A0024EAB6 /* NavBarContainer.swift */,
+				52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		52FF63F22B2600CD008A20E3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				52FF63F32B2600F1008A20E3 /* TabBar.swift */,
+				52B3E72C2B4A5DEC00767563 /* TabBarContainer.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DEF43F2B1B42760024EAB6 /* traveloka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DEF44F2B1B42760024EAB6 /* Build configuration list for PBXNativeTarget "traveloka" */;
+			buildPhases = (
+				52DEF43C2B1B42760024EAB6 /* Sources */,
+				52DEF43D2B1B42760024EAB6 /* Frameworks */,
+				52DEF43E2B1B42760024EAB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = traveloka;
+			productName = traveloka;
+			productReference = 52DEF4402B1B42760024EAB6 /* traveloka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DEF4382B1B42750024EAB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					52DEF43F2B1B42760024EAB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 52DEF43B2B1B42750024EAB6 /* Build configuration list for PBXProject "traveloka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DEF4372B1B42750024EAB6;
+			productRefGroup = 52DEF4412B1B42760024EAB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DEF43F2B1B42760024EAB6 /* traveloka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DEF43E2B1B42760024EAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DEF44B2B1B42760024EAB6 /* Preview Assets.xcassets in Resources */,
+				52DEF4482B1B42760024EAB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DEF43C2B1B42760024EAB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52781BFD2B525301006EB42B /* Main.swift in Sources */,
+				52252BC72B1C90D6005679BF /* MainNavContent.swift in Sources */,
+				52DEF45F2B1B47EE0024EAB6 /* NavBar.swift in Sources */,
+				52DEF4462B1B42760024EAB6 /* ContentView.swift in Sources */,
+				52DEF45D2B1B476A0024EAB6 /* NavBarContainer.swift in Sources */,
+				52781BF82B523326006EB42B /* Card.swift in Sources */,
+				52DEF4582B1B45670024EAB6 /* Home.swift in Sources */,
+				52A6F2FA2B220F7700E2E460 /* CategorySection.swift in Sources */,
+				52B81C4E2B24268D00282318 /* MainCategories.swift in Sources */,
+				52B054082B3C575D00D52B30 /* Carousel.swift in Sources */,
+				52B81C4C2B241AD900282318 /* SubCategories.swift in Sources */,
+				52DEF4442B1B42760024EAB6 /* travelokaApp.swift in Sources */,
+				52781BFA2B5250D7006EB42B /* SearchedItems.swift in Sources */,
+				52FF63F42B2600F1008A20E3 /* TabBar.swift in Sources */,
+				52B3E72D2B4A5DEC00767563 /* TabBarContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52DEF44D2B1B42760024EAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DEF44E2B1B42760024EAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DEF4502B1B42760024EAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"traveloka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = traveloka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangvuminh98.traveloka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DEF4512B1B42760024EAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"traveloka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = traveloka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangvuminh98.traveloka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DEF43B2B1B42750024EAB6 /* Build configuration list for PBXProject "traveloka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DEF44D2B1B42760024EAB6 /* Debug */,
+				52DEF44E2B1B42760024EAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DEF44F2B1B42760024EAB6 /* Build configuration list for PBXNativeTarget "traveloka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DEF4502B1B42760024EAB6 /* Debug */,
+				52DEF4512B1B42760024EAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DEF4382B1B42750024EAB6 /* Project object */;
+}
