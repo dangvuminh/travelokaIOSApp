@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522417952B539D21005F93F4 /* FlightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522417942B539D21005F93F4 /* FlightCard.swift */; };
+		522417982B53B0CE005F93F4 /* SearchedFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522417972B53B0CE005F93F4 /* SearchedFlights.swift */; };
 		52252BC72B1C90D6005679BF /* MainNavContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52252BC62B1C90D6005679BF /* MainNavContent.swift */; };
 		52781BF82B523326006EB42B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF72B523326006EB42B /* Card.swift */; };
 		52781BFA2B5250D7006EB42B /* SearchedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF92B5250D7006EB42B /* SearchedItems.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522417942B539D21005F93F4 /* FlightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCard.swift; sourceTree = "<group>"; };
+		522417972B53B0CE005F93F4 /* SearchedFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedFlights.swift; sourceTree = "<group>"; };
 		52252BC62B1C90D6005679BF /* MainNavContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavContent.swift; sourceTree = "<group>"; };
 		52781BF72B523326006EB42B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		52781BF92B5250D7006EB42B /* SearchedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedItems.swift; sourceTree = "<group>"; };
@@ -71,8 +75,17 @@
 			isa = PBXGroup;
 			children = (
 				52781BF72B523326006EB42B /* Card.swift */,
+				522417942B539D21005F93F4 /* FlightCard.swift */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		522417962B53B0A9005F93F4 /* SearchedFlights */ = {
+			isa = PBXGroup;
+			children = (
+				522417972B53B0CE005F93F4 /* SearchedFlights.swift */,
+			);
+			path = SearchedFlights;
 			sourceTree = "<group>";
 		};
 		52252BC42B1C909C005679BF /* NavBarContents */ = {
@@ -191,6 +204,7 @@
 		52DEF4592B1B45C50024EAB6 /* products */ = {
 			isa = PBXGroup;
 			children = (
+				522417962B53B0A9005F93F4 /* SearchedFlights */,
 				520538C22B4C378700FE4205 /* SearchedItems */,
 				52B054052B3C55FE00D52B30 /* Promotion */,
 				52A6F2F82B220E7400E2E460 /* CategorySection */,
@@ -298,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52781BFD2B525301006EB42B /* Main.swift in Sources */,
+				522417982B53B0CE005F93F4 /* SearchedFlights.swift in Sources */,
 				52252BC72B1C90D6005679BF /* MainNavContent.swift in Sources */,
 				52DEF45F2B1B47EE0024EAB6 /* NavBar.swift in Sources */,
+				522417952B539D21005F93F4 /* FlightCard.swift in Sources */,
 				52DEF4462B1B42760024EAB6 /* ContentView.swift in Sources */,
 				52DEF45D2B1B476A0024EAB6 /* NavBarContainer.swift in Sources */,
 				52781BF82B523326006EB42B /* Card.swift in Sources */,

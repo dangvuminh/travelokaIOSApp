@@ -11,7 +11,7 @@ struct SearchedItems: View {
     var cardItems: [CardItem]
     var body: some View {
         VStack {
-            Text("You have searched")
+            Text("You have searched").font(.system(size: 22.0)).frame(maxWidth: .infinity, alignment: .leading)
             ScrollView(.horizontal) {
                 HStack {
                     ForEach(cardItems, id: \.self.id) { item in

@@ -38,9 +38,10 @@ struct Card: View {
                 Image(img).resizable()
                 VStack {
                     Text(name).font(.system(size: 14.0))
-                        .padding(EdgeInsets(top: 0, leading: 3, bottom: 0.5, trailing: 20))
-                    Text(price).font(.system(size: 13.0)).padding(EdgeInsets(top: 0, leading: -28.0, bottom: 0, trailing: 20))
-                    Text(newPrice).font(.system(size: 15.0)).padding(EdgeInsets(top: 0, leading: -28.0, bottom: 15, trailing: 20)).foregroundColor(.orange)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(EdgeInsets(top: 0, leading: 3, bottom: 1, trailing: 0))
+                    Text(price).font(.system(size: 13.0)).frame(maxWidth: .infinity, alignment: .leading).padding(EdgeInsets(top: 0, leading: 5, bottom: 0, trailing: 0))
+                    Text(newPrice).font(.system(size: 15.0)).frame(maxWidth: .infinity, alignment: .leading).padding(EdgeInsets(top: 0, leading: 5, bottom: 15, trailing: 0)).foregroundColor(.orange)
                 }
             }.frame(width: 150, height: 170).cornerRadius(5.0)
             Image(systemName: "bookmark").resizable().frame(width: 17, height: 20).padding(EdgeInsets(top: 0, leading: 115.0, bottom: 130, trailing: 0)).foregroundColor(.white)
