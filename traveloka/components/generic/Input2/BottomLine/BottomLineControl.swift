@@ -11,6 +11,16 @@ struct BottomLineControl<Icon: View>: View {
     var label: String
     var icon: Icon
     var searchText: String
+    var height: CGFloat? = 70
+    var width: CGFloat? = 300
+    
+    init(label: String, @ViewBuilder icon: () -> Icon, searchText: String, height: CGFloat, width: CGFloat) {
+        self.label = label
+        self.icon = icon()
+        self.searchText = searchText
+        self.height = height
+        self.width = width
+    }
     
     init(label: String, @ViewBuilder icon: () -> Icon, searchText: String) {
         self.label = label
@@ -30,8 +40,10 @@ struct BottomLineControl<Icon: View>: View {
                     Spacer()
                 }
                 Divider()
+            }.onTapGesture {
+                print("AAA")
             }
-        }.frame(width: 300, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+        }.frame(width: width, height: height)
     }
 }
 
