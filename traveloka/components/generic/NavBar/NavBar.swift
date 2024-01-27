@@ -14,7 +14,7 @@ struct Navbar<Label: View, PrevLabel: View, RightNav: View> : View {
     @Environment(\.presentationMode) var presentationMode;
     @State var destination: AnyView?
     @State var clickItem: Int? = 0
-    init(@ViewBuilder title: () -> Label, @ViewBuilder prevTitle: @escaping () -> PrevLabel, @ViewBuilder rightNav: () -> RightNav) {
+    init(@ViewBuilder title: () -> Label, @ViewBuilder prevTitle: () -> PrevLabel, @ViewBuilder rightNav: () -> RightNav) {
         self.title = title()
         self.prevTitle = prevTitle()
         self.rightNav = rightNav()
@@ -30,7 +30,7 @@ struct Navbar<Label: View, PrevLabel: View, RightNav: View> : View {
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }, label: {
-                    Image(systemName:  "chevron.left")
+                    Image(systemName:  "arrow.left")
                     prevTitle.font(.system(size: 12))
                 })}
             Spacer()

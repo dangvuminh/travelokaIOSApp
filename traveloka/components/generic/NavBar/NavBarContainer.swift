@@ -23,7 +23,7 @@ struct NavbarContainer<Content: View, Label: View, PrevLabel: View, RightNav: Vi
             Navbar {
                 title
             } prevTitle: {
-                
+                prevTitle
             } rightNav: {rightNav}
             content
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
