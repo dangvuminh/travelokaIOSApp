@@ -13,19 +13,22 @@ struct BottomLineControl<Icon: View>: View {
     var searchText: String
     var height: CGFloat? = 70
     var width: CGFloat? = 300
+    var onTap: () -> Void
     
-    init(label: String, @ViewBuilder icon: () -> Icon, searchText: String, height: CGFloat, width: CGFloat) {
+    init(label: String, @ViewBuilder icon: () -> Icon, searchText: String, height: CGFloat, width: CGFloat, onTap: @escaping () -> Void) {
         self.label = label
         self.icon = icon()
         self.searchText = searchText
         self.height = height
         self.width = width
+        self.onTap = onTap
     }
     
-    init(label: String, @ViewBuilder icon: () -> Icon, searchText: String) {
+    init(label: String, @ViewBuilder icon: () -> Icon, searchText: String, onTap: @escaping () -> Void) {
         self.label = label
         self.icon = icon()
         self.searchText = searchText
+        self.onTap = onTap
     }
     var body: some View {
         VStack {
@@ -41,7 +44,7 @@ struct BottomLineControl<Icon: View>: View {
                 }
                 Divider()
             }.onTapGesture {
-                print("AAA")
+                onTap()
             }
         }.frame(width: width, height: height)
     }
@@ -51,7 +54,7 @@ struct BottomLineControl_Previews: PreviewProvider {
     static var previews: some View {
         BottomLineControl(label: "From", icon: {
             Image(systemName: "airplane")
-        }, searchText: "Singapore (SIN)")
+        }, searchText: "Singapore (SIN)", onTap: { print("Tap tap") })
         
     }
 }
