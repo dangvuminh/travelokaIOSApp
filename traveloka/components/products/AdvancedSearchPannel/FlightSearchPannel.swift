@@ -47,7 +47,7 @@ struct FlightSearchPannel: View {
             }).frame(width: 350, height: 40, alignment: .center).background(Color.init(red: 1, green: 0.38, blue: 0.27)).cornerRadius(5.0)
             Spacer()
         }.popover(isPresented: $popoverOpen, content: {
-            Text("Pop pop")
+            FlightSearch()
         })
     }
 }
