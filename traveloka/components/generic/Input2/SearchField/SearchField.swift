@@ -16,7 +16,7 @@ struct SearchField: View {
                     TextField("", text: $searchText)
                         .frame(width: 80.0, height: 35.0)
                         .textFieldStyle(PlainTextFieldStyle())
-                        .background(RoundedRectangle(cornerRadius: 5.0))
+                        .background(RoundedRectangle(cornerRadius: 7.0))
                         .foregroundColor(.white)
                         .padding([.top, .bottom], -12)
                     Image(systemName: "magnifyingglass").foregroundColor(.gray).background(Color.white)
