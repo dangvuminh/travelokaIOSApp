@@ -52,7 +52,11 @@ struct FlightSearchPannel: View {
                 }).popover(isPresented: $popoverOpen1, content: {
                     FlightSearch(popoverOpen: $popoverOpen1, dataChanged: $searchedData.from)
                 })
-                Image(systemName: "arrow.up.arrow.down.circle.fill").resizable().frame(width: 30, height: 30).padding(EdgeInsets(.init(top: 25, leading: 300.0, bottom: 0, trailing: 0))).foregroundColor(.blue)
+                Image(systemName: "arrow.up.arrow.down.circle.fill").resizable().frame(width: 30, height: 30).padding(EdgeInsets(.init(top: 25, leading: 300.0, bottom: 0, trailing: 0))).foregroundColor(.blue).onTapGesture {
+                    let temp = searchedData.to;
+                    searchedData.to = searchedData.from;
+                    searchedData.from = temp;
+                }
             }
             BottomLineControl(label: "To", icon: {
                 Image(systemName: "airplane")
@@ -75,13 +79,15 @@ struct FlightSearchPannel: View {
                     Toggle("", isOn: $isReturned).padding([.bottom,.trailing], 45)
                 }
             }
-            BottomLineControl(label: "Return time", icon: {
-                Image(systemName: "calendar")
-            }, searchText: dateFormatterToString(date: searchedData.returnTime, format: "dd/MM/yyyy"), onTap: {
-                popoverOpen4 = true
-            }).popover(isPresented: $popoverOpen4, content: {
-                CalendarPannel(popoverOpen: $popoverOpen4, dataChanged: $searchedData.returnTime)
-           })
+            if isReturned == true {
+                BottomLineControl(label: "Return time", icon: {
+                    Image(systemName: "calendar")
+                }, searchText: dateFormatterToString(date: searchedData.returnTime, format: "dd/MM/yyyy"), onTap: {
+                    popoverOpen4 = true
+                }).popover(isPresented: $popoverOpen4, content: {
+                    CalendarPannel(popoverOpen: $popoverOpen4, dataChanged: $searchedData.returnTime)
+               })
+            }
             HStack {
                 BottomLineControl(label: "Number of passengers", icon: {
                     Image(systemName: "person.2")

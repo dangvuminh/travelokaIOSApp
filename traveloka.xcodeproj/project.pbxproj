@@ -13,9 +13,15 @@
 		52781BF82B523326006EB42B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF72B523326006EB42B /* Card.swift */; };
 		52781BFA2B5250D7006EB42B /* SearchedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BF92B5250D7006EB42B /* SearchedItems.swift */; };
 		52781BFD2B525301006EB42B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781BFC2B525301006EB42B /* Main.swift */; };
+		5284D8C02B67E7AA007A1105 /* CalendarPannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284D8BF2B67E7AA007A1105 /* CalendarPannel.swift */; };
+		52A5F83B2B92FA0800DA563B /* dateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5F83A2B92FA0800DA563B /* dateFormatter.swift */; };
 		52A6F2FA2B220F7700E2E460 /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6F2F92B220F7700E2E460 /* CategorySection.swift */; };
+		52ABE88E2B6285F90083D98F /* BottomLineControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABE88D2B6285F90083D98F /* BottomLineControl.swift */; };
+		52ABE8912B6295040083D98F /* FlightSearchPannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABE8902B6295040083D98F /* FlightSearchPannel.swift */; };
+		52ABE8942B62A61E0083D98F /* LookupFlightPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABE8932B62A61E0083D98F /* LookupFlightPage.swift */; };
 		52B054082B3C575D00D52B30 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B054072B3C575D00D52B30 /* Carousel.swift */; };
 		52B3E72D2B4A5DEC00767563 /* TabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E72C2B4A5DEC00767563 /* TabBarContainer.swift */; };
+		52B43B6D2B66149F00A49D66 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B43B6C2B66149F00A49D66 /* SearchField.swift */; };
 		52B81C4C2B241AD900282318 /* SubCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B81C4B2B241AD900282318 /* SubCategories.swift */; };
 		52B81C4E2B24268D00282318 /* MainCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B81C4D2B24268D00282318 /* MainCategories.swift */; };
 		52DEF4442B1B42760024EAB6 /* travelokaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF4432B1B42760024EAB6 /* travelokaApp.swift */; };
@@ -25,6 +31,8 @@
 		52DEF4582B1B45670024EAB6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF4572B1B45670024EAB6 /* Home.swift */; };
 		52DEF45D2B1B476A0024EAB6 /* NavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF45C2B1B476A0024EAB6 /* NavBarContainer.swift */; };
 		52DEF45F2B1B47EE0024EAB6 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */; };
+		52F5DB392B64A94000E45401 /* FlightLookupNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5DB382B64A94000E45401 /* FlightLookupNavbar.swift */; };
+		52F5DB3C2B64D14900E45401 /* FlightSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5DB3B2B64D14900E45401 /* FlightSearch.swift */; };
 		52FF63F42B2600F1008A20E3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF63F32B2600F1008A20E3 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +43,15 @@
 		52781BF72B523326006EB42B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		52781BF92B5250D7006EB42B /* SearchedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedItems.swift; sourceTree = "<group>"; };
 		52781BFC2B525301006EB42B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		5284D8BF2B67E7AA007A1105 /* CalendarPannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPannel.swift; sourceTree = "<group>"; };
+		52A5F83A2B92FA0800DA563B /* dateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateFormatter.swift; sourceTree = "<group>"; };
 		52A6F2F92B220F7700E2E460 /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
+		52ABE88D2B6285F90083D98F /* BottomLineControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLineControl.swift; sourceTree = "<group>"; };
+		52ABE8902B6295040083D98F /* FlightSearchPannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchPannel.swift; sourceTree = "<group>"; };
+		52ABE8932B62A61E0083D98F /* LookupFlightPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupFlightPage.swift; sourceTree = "<group>"; };
 		52B054072B3C575D00D52B30 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		52B3E72C2B4A5DEC00767563 /* TabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContainer.swift; sourceTree = "<group>"; };
+		52B43B6C2B66149F00A49D66 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
 		52B81C4B2B241AD900282318 /* SubCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategories.swift; sourceTree = "<group>"; };
 		52B81C4D2B24268D00282318 /* MainCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategories.swift; sourceTree = "<group>"; };
 		52DEF4402B1B42760024EAB6 /* traveloka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = traveloka.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +63,8 @@
 		52DEF4572B1B45670024EAB6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		52DEF45C2B1B476A0024EAB6 /* NavBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarContainer.swift; sourceTree = "<group>"; };
 		52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		52F5DB382B64A94000E45401 /* FlightLookupNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLookupNavbar.swift; sourceTree = "<group>"; };
+		52F5DB3B2B64D14900E45401 /* FlightSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearch.swift; sourceTree = "<group>"; };
 		52FF63F32B2600F1008A20E3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +107,7 @@
 		52252BC42B1C909C005679BF /* NavBarContents */ = {
 			isa = PBXGroup;
 			children = (
+				52F5DB372B64A90E00E45401 /* FlightLookupNavContent */,
 				52252BC52B1C90AD005679BF /* Main */,
 			);
 			path = NavBarContents;
@@ -112,6 +129,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		52A5F8392B92F9D300DA563B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				52A5F83A2B92FA0800DA563B /* dateFormatter.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		52A6F2F82B220E7400E2E460 /* CategorySection */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +145,39 @@
 				52B81C4D2B24268D00282318 /* MainCategories.swift */,
 			);
 			path = CategorySection;
+			sourceTree = "<group>";
+		};
+		52ABE88B2B6285750083D98F /* Input2 */ = {
+			isa = PBXGroup;
+			children = (
+				52B43B6B2B66148A00A49D66 /* SearchField */,
+				52ABE88C2B6285B70083D98F /* BottomLine */,
+			);
+			path = Input2;
+			sourceTree = "<group>";
+		};
+		52ABE88C2B6285B70083D98F /* BottomLine */ = {
+			isa = PBXGroup;
+			children = (
+				52ABE88D2B6285F90083D98F /* BottomLineControl.swift */,
+			);
+			path = BottomLine;
+			sourceTree = "<group>";
+		};
+		52ABE88F2B6294E80083D98F /* AdvancedSearchPannel */ = {
+			isa = PBXGroup;
+			children = (
+				52ABE8902B6295040083D98F /* FlightSearchPannel.swift */,
+			);
+			path = AdvancedSearchPannel;
+			sourceTree = "<group>";
+		};
+		52ABE8922B62A6090083D98F /* LookupFlights */ = {
+			isa = PBXGroup;
+			children = (
+				52ABE8932B62A61E0083D98F /* LookupFlightPage.swift */,
+			);
+			path = LookupFlights;
 			sourceTree = "<group>";
 		};
 		52B054052B3C55FE00D52B30 /* Promotion */ = {
@@ -135,6 +193,14 @@
 				52B054072B3C575D00D52B30 /* Carousel.swift */,
 			);
 			path = Carousel;
+			sourceTree = "<group>";
+		};
+		52B43B6B2B66148A00A49D66 /* SearchField */ = {
+			isa = PBXGroup;
+			children = (
+				52B43B6C2B66149F00A49D66 /* SearchField.swift */,
+			);
+			path = SearchField;
 			sourceTree = "<group>";
 		};
 		52DEF4372B1B42750024EAB6 = {
@@ -156,6 +222,7 @@
 		52DEF4422B1B42760024EAB6 /* traveloka */ = {
 			isa = PBXGroup;
 			children = (
+				52A5F8392B92F9D300DA563B /* utils */,
 				52DEF4532B1B44820024EAB6 /* components */,
 				52DEF4522B1B442E0024EAB6 /* pages */,
 				52DEF4432B1B42760024EAB6 /* travelokaApp.swift */,
@@ -178,6 +245,7 @@
 		52DEF4522B1B442E0024EAB6 /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				52ABE8922B62A6090083D98F /* LookupFlights */,
 				52781BFB2B5252ED006EB42B /* Main */,
 				52DEF4542B1B44AF0024EAB6 /* Home */,
 			);
@@ -204,6 +272,8 @@
 		52DEF4592B1B45C50024EAB6 /* products */ = {
 			isa = PBXGroup;
 			children = (
+				52F5DB3A2B64D12000E45401 /* PopUpPannel */,
+				52ABE88F2B6294E80083D98F /* AdvancedSearchPannel */,
 				522417962B53B0A9005F93F4 /* SearchedFlights */,
 				520538C22B4C378700FE4205 /* SearchedItems */,
 				52B054052B3C55FE00D52B30 /* Promotion */,
@@ -216,6 +286,7 @@
 		52DEF45A2B1B45D40024EAB6 /* generic */ = {
 			isa = PBXGroup;
 			children = (
+				52ABE88B2B6285750083D98F /* Input2 */,
 				520538C32B4C382200FE4205 /* Cards */,
 				52B054062B3C574900D52B30 /* Carousel */,
 				52FF63F22B2600CD008A20E3 /* TabBar */,
@@ -231,6 +302,23 @@
 				52DEF45E2B1B47EE0024EAB6 /* NavBar.swift */,
 			);
 			path = NavBar;
+			sourceTree = "<group>";
+		};
+		52F5DB372B64A90E00E45401 /* FlightLookupNavContent */ = {
+			isa = PBXGroup;
+			children = (
+				52F5DB382B64A94000E45401 /* FlightLookupNavbar.swift */,
+			);
+			path = FlightLookupNavContent;
+			sourceTree = "<group>";
+		};
+		52F5DB3A2B64D12000E45401 /* PopUpPannel */ = {
+			isa = PBXGroup;
+			children = (
+				52F5DB3B2B64D14900E45401 /* FlightSearch.swift */,
+				5284D8BF2B67E7AA007A1105 /* CalendarPannel.swift */,
+			);
+			path = PopUpPannel;
 			sourceTree = "<group>";
 		};
 		52FF63F22B2600CD008A20E3 /* TabBar */ = {
@@ -311,23 +399,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A5F83B2B92FA0800DA563B /* dateFormatter.swift in Sources */,
+				52ABE88E2B6285F90083D98F /* BottomLineControl.swift in Sources */,
 				52781BFD2B525301006EB42B /* Main.swift in Sources */,
 				522417982B53B0CE005F93F4 /* SearchedFlights.swift in Sources */,
 				52252BC72B1C90D6005679BF /* MainNavContent.swift in Sources */,
+				52F5DB392B64A94000E45401 /* FlightLookupNavbar.swift in Sources */,
 				52DEF45F2B1B47EE0024EAB6 /* NavBar.swift in Sources */,
 				522417952B539D21005F93F4 /* FlightCard.swift in Sources */,
 				52DEF4462B1B42760024EAB6 /* ContentView.swift in Sources */,
 				52DEF45D2B1B476A0024EAB6 /* NavBarContainer.swift in Sources */,
 				52781BF82B523326006EB42B /* Card.swift in Sources */,
+				52B43B6D2B66149F00A49D66 /* SearchField.swift in Sources */,
 				52DEF4582B1B45670024EAB6 /* Home.swift in Sources */,
 				52A6F2FA2B220F7700E2E460 /* CategorySection.swift in Sources */,
 				52B81C4E2B24268D00282318 /* MainCategories.swift in Sources */,
 				52B054082B3C575D00D52B30 /* Carousel.swift in Sources */,
 				52B81C4C2B241AD900282318 /* SubCategories.swift in Sources */,
+				52F5DB3C2B64D14900E45401 /* FlightSearch.swift in Sources */,
 				52DEF4442B1B42760024EAB6 /* travelokaApp.swift in Sources */,
 				52781BFA2B5250D7006EB42B /* SearchedItems.swift in Sources */,
+				52ABE8912B6295040083D98F /* FlightSearchPannel.swift in Sources */,
 				52FF63F42B2600F1008A20E3 /* TabBar.swift in Sources */,
+				52ABE8942B62A61E0083D98F /* LookupFlightPage.swift in Sources */,
 				52B3E72D2B4A5DEC00767563 /* TabBarContainer.swift in Sources */,
+				5284D8C02B67E7AA007A1105 /* CalendarPannel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
