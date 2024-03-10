@@ -79,7 +79,9 @@ struct AddPassengerPannel: View {
             }
             Divider()
             HStack {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    popoverOpen = false
+                }, label: {
                     Text("Cancel")
                 }).frame(width: 180, height: 35).background(Color(.sRGB, red:0.94 , green:0.94 ,blue:0.94)).cornerRadius(5.0)
                 Button(action: {
